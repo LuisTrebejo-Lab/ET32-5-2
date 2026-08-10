@@ -18,8 +18,8 @@ public class Main {
         // Los datos entran directo por el constructor
         Pedido pedido = new Pedido(producto, cantidad, precioUnitario);
 
-        System.out.print("Tipo de pago (EFECTIVO/TARJETA/TRANSFERENCIA): ");
-        String tipoPago = sc.nextLine();
+        //System.out.print("Tipo de pago (EFECTIVO/TARJETA/TRANSFERENCIA): ");
+        //String tipoPago = sc.nextLine();
 
         // El main ya no decide "cómo" se crea la estrategia, solo la pide
         EstrategiaPago estrategiaPago = new PagoEfectivo();
